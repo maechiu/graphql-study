@@ -8,6 +8,7 @@ import "graphql-study/query/field"
 var Object = graphql.NewObject(graphql.ObjectConfig{
 	Name: "Query",
 	Fields: graphql.Fields{
-		"hello": &field.Hello,
+		"hello":   &field.Hello,
+		"friends": &field.Friends,
 	},
 })
